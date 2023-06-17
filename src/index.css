@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(./style/fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  background-color: bisque;
+  font-family: 'Poppins'
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.navbar--header{
+  width: 700px;
+  padding: 30px 0 30px 0;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar--logo{
+  width: 120px;
+  margin-left: 30px;
+}
+
+.hero--main{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--grid{
+  
+  margin-top: 50px;
+  width: 500px;
+}
+
+.hero--photogrid{
+  align-self: center;
+}
+
+.hero--info{
+  width: 700px;
+  font-family: 'Poppins';
+}
+
+.hero--info>h1{
+  margin: 0;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hero--info>p{
+  margin-left: 50px;
+  width: 300px;
+  color: rgb(87, 87, 87);
+}
+
+.card--container{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+  overflow-x: auto;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.card--main{
+  width: 200px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.card--pic{
+  width: 100%;
+  border-radius: 20px;
+  height: 267px;
+}
+
+.card--pic-ava{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 3px;
+  font-family: 'Poppins';
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.card--star{
+  width: 11px;
+}
+
+.card--rating{
+  
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+
+.card--rating-points{
+  margin: 0;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.card--rating-quantity{
+  margin: 0;
+  margin-left: 5px;
+  font-size: 13px;
+  color: rgb(142, 142, 142);
+}
+
+
+.card--info{
+  max-width: 200px;
+}
+
+.card--topic{
+  font-size: 13px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.card--price{
+  font-size: 13px;
+  margin: 0;
+  margin-top: 5px;
+}
